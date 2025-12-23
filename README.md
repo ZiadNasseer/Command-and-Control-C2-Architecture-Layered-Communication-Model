@@ -414,32 +414,32 @@ Hardware
 |     Application (EXE)       |
 |        User Mode            |
 +-------------+---------------+
-|
-v
+              |
+              v
 +-----------------------------+
 |      Windows API (Win32)    |
 |  File / Process / Network  |
 +-------------+---------------+
-|
-v
+              |
+              v
 +-----------------------------+
 |            NTDLL            |
 |  NT Functions (Bridge)      |
 +-------------+---------------+
-|
-v
+              |
+              v
 +-----------------------------+
 |        System Call           |
 |   User → Kernel Transition  |
 +-------------+---------------+
-|
-v
+              |
+              v
 +=============================+
 |         Kernel Mode         |
 |       Windows Kernel        |
 +=============+===============+
-|
--
+              |
+              -
 
 |           |           |          |
 v           v           v          v
@@ -447,11 +447,11 @@ v           v           v          v
 | Proc |   | Memory  |  | Files |  | Network |
 | Mgr  |   | Manager |  | NTFS  |  | TCP/IP  |
 +------+   +---------+  +-------+  +---------+
-|
-v
-+-----------+
-|    RAM    |
-+-----------+
+                      |
+                      v
+                +-----------+
+                |    RAM    |
+                +-----------+
 
 #🧠 Windows Memory Internals (RAM) — Deep Dive
 
