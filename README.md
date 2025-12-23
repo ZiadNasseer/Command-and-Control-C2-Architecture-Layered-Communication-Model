@@ -409,7 +409,7 @@ Kernel Mode
         ↓
 Hardware
 ```
-
+```text
 +-----------------------------+
 |     Application (EXE)       |
 |        User Mode            |
