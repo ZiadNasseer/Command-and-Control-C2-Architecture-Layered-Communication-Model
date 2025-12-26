@@ -833,4 +833,7 @@ Executable Pages
    ↓ execution
 CPU
 ```
-![C2 Architecture Diagram](https://github.com/ZiadNasseer/Command-and-Control-C2-Architecture-Layered-Communication-Model/raw/main/Untitled%20Diagram.drawio4.png)
+<p align="center">
+  <img src="https://github.com/ZiadNasseer/Command-and-Control-C2-Architecture-Layered-Communication-Model/raw/main/Untitled%20Diagram.drawio4.png" width="800">
+</p>
+
